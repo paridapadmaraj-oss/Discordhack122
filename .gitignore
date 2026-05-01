@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+accounts/*.json
+accounts/*.txt
+chromedriver*
+*.log
+config_local.json
