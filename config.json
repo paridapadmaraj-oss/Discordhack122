@@ -1,0 +1,47 @@
+{
+  "accounts": {
+    "creation": {
+      "enabled": true,
+      "headless": false,
+      "use_temp_email": true,
+      "proxy_rotation": false,
+      "captcha_manual": true
+    }
+  },
+  "bot": {
+    "join_server": {
+      "auto_join": true,
+      "invite_link": ""
+    },
+    "channels": {
+      "scan_on_join": true,
+      "categorize": true,
+      "targets": []
+    },
+    "actions": {
+      "send_messages": {
+        "enabled": true,
+        "messages": ["Hello everyone!", "gm", "👋"],
+        "random_order": true,
+        "interval_seconds": 60
+      },
+      "add_reactions": {
+        "enabled": true,
+        "post_link": "",
+        "emojis": ["👍", "🔥", "💯"],
+        "interval_seconds": 30
+      },
+      "typing_indicator": {
+        "enabled": false,
+        "duration_seconds": 5
+      }
+    },
+    "scheduler": {
+      "enabled": false,
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "timezone": "UTC"
+    }
+  },
+  "stop_keyword": "!stop"
+}
